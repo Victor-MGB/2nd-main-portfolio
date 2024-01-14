@@ -14,8 +14,8 @@ export const projects = [
         name: "Paystack",
       },
     ],
-    // img: "../assets/images/estateshot.png",
-    link: "https://pvz-2-api.vercel.app/",
+    img: "../assets/images/estateshot.png",
+    link: "https://victor-estate.netlify.app/",
     code: "https://github.com/Victor-MGB/real-estate-frontend",
   },
 

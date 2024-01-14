@@ -1,5 +1,5 @@
 import React from "react";
-import estateshot from '../../assets/images/estateshot.png'
+// import estateshot from '../../assets/images/estateshot.png'
 
 export default function Work({ title, desc, tags, link, code, img }) {
   return (
@@ -7,7 +7,7 @@ export default function Work({ title, desc, tags, link, code, img }) {
       <div className="bg-gradient-to-r from-green-700 to-pink-800 p-4 flex flex-col justify-between h-full">
         <div className="relative rounded-2xl overflow-hidden">
           <img
-            src={estateshot}
+            src={require("../../assets/images/estateshot.png")}
             alt={title}
             className="w-full h-48 object-cover border-b-2 border-secondary"
           />

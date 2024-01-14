@@ -1,8 +1,7 @@
 import "../App.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
@@ -129,39 +128,35 @@ export default function Slidebar() {
         <div
           title="Github"
           onClick={() =>
-            window.open("https://github.com/daniel-jebarson", "_blank")
+            window.open("https://github.com/Victor-MGB", "_blank")
           }
         >
           <GitHubIcon className="cursor-pointer hover:scale-105" />
         </div>
+
         <div
-          title="Instagram"
-          onClick={() =>
-            window.open("https://www.instagram.com/daniel_diago2003", "_blank")
-          }
-        >
-          {" "}
-          <InstagramIcon className="cursor-pointer hover:scale-105" />
-        </div>
+                title="Twitter"
+                onClick={() =>
+                  window.open(
+                    "https://twitter.com/Victor01808002",
+                    "_blank"
+                  )
+                }
+              >
+                {" "}
+                <TwitterIcon className="cursor-pointer hover:scale-105" />
+              </div>
+
         <div
           title="Linkedin"
           onClick={() =>
             window.open(
-              "https://www.linkedin.com/in/daniel-jebarson-k-a727a822a",
-              "_blank"
-            )
+              "https://www.linkedin.com/in/victor-osondu-1985a7237/",
+             "_blank")
           }
         >
           {" "}
           <LinkedInIcon className="cursor-pointer hover:scale-105" />
-        </div>
-        <div
-          title="Facebook"
-          onClick={() =>
-            window.open("https://www.facebook.com/daniel.jebarson.9", "_blank")
-          }
-        >
-          <FacebookIcon className="cursor-pointer hover:scale-105" />
         </div>
       </div>
     </div>
