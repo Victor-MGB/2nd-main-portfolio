@@ -1,7 +1,8 @@
+
 export const projects = [
   {
-    title: "Plants vs Zombies API",
-    desc: "An API built with with NextTS and Tailwind CSS to help website builders build their websites about Plants-vs-Zombies-2 easily! Data has been scraped from fandom websites and all data are  error free",
+    title: "Real Estate Website",
+    desc: "An API built a home House or home api uising Nodejs and Express and Tailwind CSS to help website builders build their websites about Real Estate easily! Data is still hosted at backend hosting platform Render.com from fandom websites and all data are  error free",
     tags: [
       {
         name: "NextTs",
@@ -12,9 +13,9 @@ export const projects = [
         color: "green-600",
       },
     ],
-    img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109025615442608168/pvz.png",
+    img: "../assets/images/estateshot.png",
     link: "https://pvz-2-api.vercel.app/",
-    code: "https://github.com/code-cracked/plants-vs-zombies-api",
+    code: "https://github.com/Victor-MGB/real-estate-frontend",
   },
   {
     title: "Web-Chat-App",
