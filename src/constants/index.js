@@ -2,21 +2,23 @@
 export const projects = [
   {
     title: "Real Estate Website",
-    desc: "An API built a home House or home api uising Nodejs and Express and Tailwind CSS to help website builders build their websites about Real Estate easily! Data is still hosted at backend hosting platform Render.com from fandom websites and all data are  error free",
+    desc: "I built an API for a house or home api using Nodejs and Express and Tailwind CSS to help website builders build their websites about Real Estate easily! Data is still hosted at backend hosting platform Render.com from fandom websites and all data are  error free",
     tags: [
       {
-        name: "NextTs",
-        color: "red-600",
+        name: "Mern Stack",
       },
       {
         name: "TailwindCSS",
-        color: "green-600",
+      },
+      {
+        name: "Paystack",
       },
     ],
-    img: "../assets/images/estateshot.png",
+    // img: "../assets/images/estateshot.png",
     link: "https://pvz-2-api.vercel.app/",
     code: "https://github.com/Victor-MGB/real-estate-frontend",
   },
+
   {
     title: "Web-Chat-App",
     desc: "An app made with NextJs to help each other communicate fastly and securely. We can also search for the friends with their username.Realtime updates on messages.",
